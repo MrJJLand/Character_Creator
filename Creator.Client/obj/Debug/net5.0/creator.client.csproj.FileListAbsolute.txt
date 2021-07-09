@@ -1,0 +1,5 @@
+/home/mrjjland/projects/Character_Creator/Creator.Client/obj/Debug/net5.0/creator.client.csprojAssemblyReference.cache
+/home/mrjjland/projects/Character_Creator/Creator.Client/obj/Debug/net5.0/creator.client.GeneratedMSBuildEditorConfig.editorconfig
+/home/mrjjland/projects/Character_Creator/Creator.Client/obj/Debug/net5.0/creator.client.AssemblyInfoInputs.cache
+/home/mrjjland/projects/Character_Creator/Creator.Client/obj/Debug/net5.0/creator.client.AssemblyInfo.cs
+/home/mrjjland/projects/Character_Creator/Creator.Client/obj/Debug/net5.0/creator.client.csproj.CoreCompileInputs.cache

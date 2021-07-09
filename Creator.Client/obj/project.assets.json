@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "creator.domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/creator.domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/creator.domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "creator.domain/1.0.0": {
+      "type": "project",
+      "path": "../Creator.Domain/creator.domain.csproj",
+      "msbuildProject": "../Creator.Domain/creator.domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "creator.domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/mrjjland/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/mrjjland/projects/Character_Creator/Creator.Client/creator.client.csproj",
+      "projectName": "creator.client",
+      "projectPath": "/home/mrjjland/projects/Character_Creator/Creator.Client/creator.client.csproj",
+      "packagesPath": "/home/mrjjland/.nuget/packages/",
+      "outputPath": "/home/mrjjland/projects/Character_Creator/Creator.Client/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/mrjjland/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/home/mrjjland/projects/Character_Creator/Creator.Domain/creator.domain.csproj": {
+              "projectPath": "/home/mrjjland/projects/Character_Creator/Creator.Domain/creator.domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
